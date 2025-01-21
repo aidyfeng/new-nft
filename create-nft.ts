@@ -34,7 +34,7 @@ const mint = generateSigner(umi);
 const transaction = await createNft(umi, {
     mint,
     name:"MY NFT",
-    uri:"https://....",
+    uri:"https://raw.githubusercontent.com/aidyfeng/new-nft/refs/heads/main/sample-nft-offchain-data.json",
     sellerFeeBasisPoints:percentAmount(0),
     collection:{
         key:collectionAddress,
